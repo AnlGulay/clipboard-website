@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Mono&display=swap');
+@theme{
+    --color-strongCyan: hsl(171, 66%, 44%);
+    --color-lightBlue: hsl(233, 100%, 69%);
+    --color-darkGrayishBlue: hsl(210, 10%, 33%);
+    --color-grayishBlue: hsl(201, 11%, 66%);
+
+    --font-bai: 'Bai Jamjuree';
+}
+.ficon:hover{
+    filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
